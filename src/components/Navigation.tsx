@@ -28,13 +28,13 @@ const Navigation = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <Link to="/" className="group">
+          <Link to="/" className="group flex items-center">
             <div className={`text-3xl font-black transition-colors ${
               isScrolled || !isHomePage ? 'text-black' : 'text-white'
             }`}>
               MvDAa
             </div>
-            <div className={`text-sm font-medium transition-colors ${
+            <div className={`ml-3 text-sm font-medium transition-colors ${
               isScrolled || !isHomePage ? 'text-gray-600' : 'text-gray-300'
             }`}>
               stucadoor & afbouw

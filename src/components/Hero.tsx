@@ -35,7 +35,7 @@ const Hero = () => {
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/20 to-transparent z-10"></div>
         <img 
-          src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+          src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
           alt="Professioneel stucwerk"
           className="w-full h-full object-cover scale-110 animate-[zoom-in_20s_ease-out_infinite_alternate]"
         />
@@ -66,20 +66,13 @@ const Hero = () => {
             <span className="font-semibold">MvDAa</span> zorgt voor een onberispelijke uitstraling van uw project.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <div className="flex justify-center">
             <Link to="/projecten">
               <Button size="lg" className="group bg-white text-black hover:bg-gray-100 text-xl px-10 py-6 h-auto">
                 Bekijk onze projecten
                 <ArrowRight className="ml-3 group-hover:translate-x-2 transition-transform" size={24} />
               </Button>
             </Link>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="border-white text-white hover:bg-white hover:text-black text-xl px-10 py-6 h-auto backdrop-blur-sm"
-            >
-              Gratis offerte aanvragen
-            </Button>
           </div>
         </div>
 
