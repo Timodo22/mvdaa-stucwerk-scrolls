@@ -115,7 +115,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-black mb-1">E-mail</h3>
-                      <p className="text-gray-600">info@mvdaa-stucadoor.nl</p>
+                      <p className="text-gray-600">mvdaastucwerk@gmail.com</p>
                       <p className="text-sm text-gray-500">Binnen 24 uur reactie</p>
                     </div>
                   </div>
@@ -126,8 +126,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-black mb-1">Locatie</h3>
-                      <p className="text-gray-600">Utrecht, Nederland</p>
-                      <p className="text-sm text-gray-500">Werkzaam in heel Nederland</p>
+                      <p className="text-gray-600">Nuenen, Nederland</p>
+                      <p className="text-sm text-gray-500">Werkzaam in Nuenen en omstreken</p>
                     </div>
                   </div>
 

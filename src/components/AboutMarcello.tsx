@@ -37,7 +37,7 @@ const AboutMarcello = () => {
               />
             </div>
             <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-black text-white p-4 sm:p-6 rounded-xl shadow-xl min-w-[140px] sm:min-w-[160px] text-center">
-              <div className="text-xl sm:text-2xl font-bold">15+</div>
+              <div className="text-xl sm:text-2xl font-bold">5+</div>
               <div className="text-sm sm:text-base whitespace-nowrap">Jaar ervaring</div>
             </div>
           </div>
@@ -52,7 +52,7 @@ const AboutMarcello = () => {
                 precisie en de trots om iets moois achter te laten."
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
-                Met meer dan 15 jaar ervaring in de stucadoorsbranche heeft Marcello 
+                Met meer dan 5 jaar ervaring in de stucadoorsbranche heeft Marcello 
                 van der Aa zich ontwikkeld tot een echte vakman. Begonnen als leerling, 
                 groeide hij uit tot een gespecialiseerde stucadoor die zowel traditionele 
                 als moderne technieken beheerst.

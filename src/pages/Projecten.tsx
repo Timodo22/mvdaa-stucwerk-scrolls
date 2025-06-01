@@ -5,13 +5,15 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import Fotos from '@/img/Toilet.png';
+
 
 const projects = [
   {
     id: 1,
-    title: "Villa Moderne Stuc",
-    description: "Complete renovatie met moderne stuctechnieken voor een luxe villa",
-    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    title: "Toilet ruimte",
+    description: "In dit project hebben we een verouderde toiletruimte omgetoverd tot een strakke, moderne ruimte. De muren zijn vakkundig gestuukt voor een egaal en naadloos resultaat, wat direct zorgt voor een frisse en luxueuze uitstraling. Dankzij het strakke stucwerk komt het sanitair optimaal tot zijn recht en vormt de ruimte een harmonieus geheel. Perfect als onderdeel van een grotere renovatie of als stijlvolle upgrade van een bestaand interieur.",
+    image: Fotos,
     category: "Renovatie",
     year: "2024"
   },

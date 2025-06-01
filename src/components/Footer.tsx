@@ -10,7 +10,6 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4">MvDAa</h3>
             <p className="text-gray-400 mb-6">
               Uw specialist in stucwerk en afbouw. Kwaliteit en vakmanschap 
-              sinds 2008.
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-3">
@@ -19,11 +18,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={16} />
-                <span>info@mvdaa-stucadoor.nl</span>
+                <span>mvdaastucwerk@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin size={16} />
-                <span>Utrecht, Nederland</span>
+                <span>Nuenen, Nederland</span>
               </div>
             </div>
           </div>
@@ -34,7 +33,6 @@ const Footer = () => {
               <li>Traditioneel Stucwerk</li>
               <li>Moderne Afbouw</li>
               <li>Decoratieve Technieken</li>
-              <li>Renovatie</li>
               <li>Nieuwbouw</li>
             </ul>
           </div>
@@ -42,17 +40,16 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Werkgebied</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Utrecht</li>
-              <li>Amsterdam</li>
-              <li>Den Haag</li>
-              <li>Rotterdam</li>
+              <li>Eindhoven</li>
+              <li>Geldrop</li>
+              <li>Veldhoven</li>
               <li>En omstreken</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 MvDAa Stucadoor & Afbouw. Alle rechten voorbehouden.</p>
+          <p>&copy; 2025 MvDAa Stucadoor & Afbouw. Alle rechten voorbehouden. Powerd Spectux</p>
         </div>
       </div>
     </footer>

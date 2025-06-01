@@ -5,23 +5,29 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import fotos from '@/img/Toilet.png'
+import fotos1 from '@/img/Toilet2.png'
+import fotos2 from '@/img/Toilet3.png'
+import fotos3 from '@/img/Toilet4.png'
+
 
 // Mock project data - in a real app this would come from an API
 const projects = {
   1: {
     id: 1,
-    title: "Moderne Villa Renovatie",
-    location: "Utrecht",
+    title: "Toilet ruimte",
+    location: "Nuenen",
     date: "2024",
-    description: "Complete renovatie van een moderne villa inclusief stucwerk en afbouw van alle wanden en plafonds.",
+    description: "In dit project hebben we een verouderde toiletruimte omgetoverd tot een strakke, moderne ruimte. De muren zijn vakkundig gestuukt voor een egaal en naadloos resultaat, wat direct zorgt voor een frisse en luxueuze uitstraling. Dankzij het strakke stucwerk komt het sanitair optimaal tot zijn recht en vormt de ruimte een harmonieus geheel. Perfect als onderdeel van een grotere renovatie of als stijlvolle upgrade van een bestaand interieur.",
     images: [
-      "https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524230572899-a752b3835840?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1433832597046-4f10e10ac764?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      fotos,
+      fotos1,
+      fotos2,
+      fotos3,
       "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     ]
   },
+  
   2: {
     id: 2,
     title: "Kantoorpand Amsterdam",

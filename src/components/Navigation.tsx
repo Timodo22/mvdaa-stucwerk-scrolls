@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import LogoImage from '../img/Logo_mvda.png';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,16 +30,8 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 sm:h-20">
           <Link to="/" className="group flex items-center">
-            <div className={`text-2xl sm:text-3xl font-black transition-colors ${
-              isScrolled || !isHomePage ? 'text-black' : 'text-white'
-            }`}>
-              MvDAa
-            </div>
-            <div className={`ml-2 sm:ml-3 text-xs sm:text-sm font-medium transition-colors ${
-              isScrolled || !isHomePage ? 'text-gray-600' : 'text-gray-300'
-            }`}>
-              stucadoor & afbouw
-            </div>
+<img src={LogoImage} alt="MvDAa Stucwerk Logo" className="h-14 w-auto" />
+      
           </Link>
           
           <div className="hidden md:flex space-x-8 lg:space-x-12">

@@ -34,7 +34,7 @@ const Hero = () => {
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-black/50 via-black/30 to-transparent z-10"></div>
         <img 
-          src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+          src="https://svanrooijenstukadoors.nl/wp-content/uploads/2021/08/gereedschap-stukadoor.png"
           alt="Professioneel stucwerk en afbouw"
           className="w-full h-full object-cover scale-110 animate-[zoom-in_20s_ease-out_infinite_alternate]"
         />
@@ -47,9 +47,7 @@ const Hero = () => {
 
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20 sm:pt-16">
         <div className="mb-8">
-          <div className="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-6 border border-white/30">
-            <span className="text-white font-medium text-sm sm:text-base">15+ jaar ervaring in vakmanschap</span>
-          </div>
+
           
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-6 sm:mb-8 leading-none">
             <span className="block">PERFECTE</span>
@@ -81,11 +79,11 @@ const Hero = () => {
         {/* Stats section */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mt-12 sm:mt-20">
           <div className="text-center">
-            <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-2">500+</div>
+            <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-2">100+</div>
             <div className="text-gray-300 font-medium text-sm sm:text-base">Projecten voltooid</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-2">15+</div>
+            <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-2">5+</div>
             <div className="text-gray-300 font-medium text-sm sm:text-base">Jaar ervaring</div>
           </div>
           <div className="text-center">
