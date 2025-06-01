@@ -27,21 +27,21 @@ const Navigation = () => {
         : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-16 sm:h-20">
           <Link to="/" className="group flex items-center">
-            <div className={`text-3xl font-black transition-colors ${
+            <div className={`text-2xl sm:text-3xl font-black transition-colors ${
               isScrolled || !isHomePage ? 'text-black' : 'text-white'
             }`}>
               MvDAa
             </div>
-            <div className={`ml-3 text-sm font-medium transition-colors ${
+            <div className={`ml-2 sm:ml-3 text-xs sm:text-sm font-medium transition-colors ${
               isScrolled || !isHomePage ? 'text-gray-600' : 'text-gray-300'
             }`}>
               stucadoor & afbouw
             </div>
           </Link>
           
-          <div className="hidden md:flex space-x-12">
+          <div className="hidden md:flex space-x-8 lg:space-x-12">
             <Link 
               to="/" 
               className={`relative font-semibold transition-all duration-300 hover:scale-105 ${
@@ -68,7 +68,7 @@ const Navigation = () => {
             </Link>
           </div>
 
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4">
             <a 
               href="tel:+31612345678" 
               className={`flex items-center space-x-2 transition-colors ${
@@ -78,16 +78,6 @@ const Navigation = () => {
               <Phone size={16} />
               <span className="font-medium">+31 6 12345678</span>
             </a>
-            <Button 
-              variant={isScrolled || !isHomePage ? "default" : "outline"} 
-              className={`group font-semibold transition-all duration-300 hover:scale-105 ${
-                isScrolled || !isHomePage 
-                  ? '' 
-                  : 'border-white text-white hover:bg-white hover:text-black'
-              }`}
-            >
-              Offerte aanvragen
-            </Button>
           </div>
 
           <button
@@ -95,14 +85,16 @@ const Navigation = () => {
               isScrolled || !isHomePage ? 'text-black' : 'text-white'
             }`}
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle menu"
           >
-            {isOpen ? <X size={28} /> : <Menu size={28} />}
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
 
+        {/* Mobile menu */}
         {isOpen && (
-          <div className="md:hidden py-6 border-t border-gray-100 bg-white/95 backdrop-blur-lg">
-            <div className="flex flex-col space-y-6">
+          <div className="md:hidden py-4 sm:py-6 border-t border-gray-100 bg-white/95 backdrop-blur-lg">
+            <div className="flex flex-col space-y-4 sm:space-y-6">
               <Link 
                 to="/" 
                 className="text-gray-800 hover:text-black transition-colors font-semibold text-lg"
@@ -131,9 +123,6 @@ const Navigation = () => {
                 <Phone size={16} />
                 <span>+31 6 12345678</span>
               </a>
-              <Button className="w-full font-semibold">
-                Offerte aanvragen
-              </Button>
             </div>
           </div>
         )}
