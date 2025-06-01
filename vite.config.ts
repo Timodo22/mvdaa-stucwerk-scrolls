@@ -5,6 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Voeg hier de 'base' optie toe
+  base: "/mvdaa-stucwerk-scrolls/", // <<<<< DEZE REGEL IS BELANGRIJK!
   server: {
     host: "::",
     port: 8080,
