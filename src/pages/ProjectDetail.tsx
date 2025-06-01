@@ -6,9 +6,9 @@ import { Card, CardContent } from '@/components/ui/card';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import fotos from '@/img/Toilet.png'
-import fotos1 from '@/img/Toilet2.png'
-import fotos2 from '@/img/Toilet3.png'
-import fotos3 from '@/img/Toilet4.png'
+import fotos1 from '@/img/toilet2.png'
+import fotos2 from '@/img/toilet3.png'
+import fotos3 from '@/img/toilet4.png'
 
 
 // Mock project data - in a real app this would come from an API
