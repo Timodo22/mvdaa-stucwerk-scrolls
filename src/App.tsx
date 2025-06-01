@@ -2,8 +2,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-// Pas deze import aan van BrowserRouter naar HashRouter
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+// Verander HashRouter terug naar BrowserRouter
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // <-- Deze lijn aanpassen
 import Index from "./pages/Index";
 import Projecten from "./pages/Projecten";
 import Contact from "./pages/Contact";
@@ -17,8 +17,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      {/* Pas BrowserRouter aan naar Router (wat nu HashRouter is) */}
-      <Router>
+      {/* Gebruik BrowserRouter hier */}
+      <Router> {/* <-- Gebruik <Router> zoals je al deed, maar nu is het BrowserRouter */}
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/projecten" element={<Projecten />} />
