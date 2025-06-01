@@ -1,3 +1,4 @@
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -5,8 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Voeg hier de 'base' optie toe
-  base: "/mvdaa-stucwerk-scrolls/", // <<<<< DEZE REGEL IS BELANGRIJK!
+  // Remove the base path for Cloudflare deployment
   server: {
     host: "::",
     port: 8080,
@@ -20,5 +20,9 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
   },
 }));
