@@ -25,24 +25,24 @@ const AboutMarcello = () => {
   }, []);
 
   return (
-    <section ref={aboutRef} className="py-16 sm:py-20 bg-gray-50">
+    <section ref={aboutRef} className="py-16 sm:py-20 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-          <div className="relative">
-            <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
+          <div className="relative overflow-hidden">
+            <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl max-w-full">
               <img 
                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                 alt="Marcello - Eigenaar MvDAa Stucadoor"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-black text-white p-4 rounded-xl shadow-xl">
-              <div className="text-2xl font-bold">15+</div>
-              <div className="text-sm">Jaar ervaring</div>
+            <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-black text-white p-3 sm:p-4 rounded-xl shadow-xl max-w-[120px] sm:max-w-none">
+              <div className="text-xl sm:text-2xl font-bold">15+</div>
+              <div className="text-xs sm:text-sm">Jaar ervaring</div>
             </div>
           </div>
 
-          <div>
+          <div className="overflow-hidden">
             <div className="mb-8">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black mb-6">
                 Over Marcello

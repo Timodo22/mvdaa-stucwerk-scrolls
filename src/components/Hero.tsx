@@ -46,7 +46,7 @@ const Hero = () => {
       <div className="absolute top-32 sm:top-40 right-4 sm:right-20 w-24 sm:w-32 h-24 sm:h-32 bg-white/5 rounded-full blur-md animate-[float_8s_ease-in-out_infinite_reverse]"></div>
       <div className="absolute bottom-32 sm:bottom-40 left-4 sm:left-20 w-12 sm:w-16 h-12 sm:h-16 bg-white/15 rounded-full blur-sm animate-[float_7s_ease-in-out_infinite]"></div>
 
-      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20 sm:pt-16">
         <div className="mb-8">
           <div className="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-6 border border-white/30">
             <Star className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400 mr-2" />
