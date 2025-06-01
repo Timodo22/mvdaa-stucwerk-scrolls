@@ -1,7 +1,6 @@
 
 import { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
-import { Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -49,7 +48,6 @@ const Hero = () => {
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20 sm:pt-16">
         <div className="mb-8">
           <div className="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-6 border border-white/30">
-            <Star className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400 mr-2" />
             <span className="text-white font-medium text-sm sm:text-base">15+ jaar ervaring in vakmanschap</span>
           </div>
           
@@ -66,10 +64,15 @@ const Hero = () => {
             <span className="font-semibold">MvDAa</span> zorgt voor een onberispelijke uitstraling van uw project.
           </p>
 
-          <div className="flex justify-center">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
             <Link to="/projecten">
-              <Button size="lg" className="group bg-white text-black hover:bg-gray-100 text-lg sm:text-xl px-6 sm:px-10 py-4 sm:py-6 h-auto">
+              <Button size="lg" className="group bg-white text-black hover:bg-gray-100 text-lg sm:text-xl px-6 sm:px-10 py-4 sm:py-6 h-auto w-full sm:w-auto">
                 Bekijk onze projecten
+              </Button>
+            </Link>
+            <Link to="/contact">
+              <Button size="lg" variant="outline" className="group bg-transparent border-2 border-white text-white hover:bg-white hover:text-black text-lg sm:text-xl px-6 sm:px-10 py-4 sm:py-6 h-auto w-full sm:w-auto transition-all duration-300">
+                Vraag offerte aan
               </Button>
             </Link>
           </div>
@@ -89,13 +92,6 @@ const Hero = () => {
             <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-2">100%</div>
             <div className="text-gray-300 font-medium text-sm sm:text-base">Klanttevredenheid</div>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>

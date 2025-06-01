@@ -36,9 +36,9 @@ const AboutMarcello = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-black text-white p-3 sm:p-4 rounded-xl shadow-xl max-w-[120px] sm:max-w-none">
+            <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-black text-white p-4 sm:p-6 rounded-xl shadow-xl min-w-[140px] sm:min-w-[160px] text-center">
               <div className="text-xl sm:text-2xl font-bold">15+</div>
-              <div className="text-xs sm:text-sm">Jaar ervaring</div>
+              <div className="text-sm sm:text-base whitespace-nowrap">Jaar ervaring</div>
             </div>
           </div>
 
